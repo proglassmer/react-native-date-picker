@@ -83,7 +83,8 @@ class DatePickerAndroid extends React.PureComponent {
   }
 
   _onConfirm = (isoDate) => {
-    this.props.onConfirm(this._fromIsoWithTimeZoneOffset(isoDate))
+    console.log('tes fork')
+    // this.props.onConfirm(this._fromIsoWithTimeZoneOffset(isoDate))
   }
 }
 
